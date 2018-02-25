@@ -8,6 +8,7 @@ class PagesController < ApplicationController
       params[:adjective]
     )
     @text = stringify_instance.what_am_i
+
   end
 
   def age
